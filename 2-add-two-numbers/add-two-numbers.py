@@ -1,36 +1,37 @@
 # Definition for singly-linked list.
-# class ListNode:
+# class ListNode(object):
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
-class Solution:
-    def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
-        itr1 = l1
-        itr2 = l2
-        str1 = ""
-        str2 = ""
 
-        while(itr1):
-            str1 = str1 + str(itr1.val)
-            itr1 = itr1.next
-        
-        while(itr2):
-            str2 = str2 + str(itr2.val)
-            itr2 = itr2.next
-        
-        sumi = str(int(str1[::-1]) + int(str2[::-1]))
-        arr = []
+class Solution(object):
+    def addTwoNumbers(self, l1, l2):
+        """
+        :type l1: ListNode
+        :type l2: ListNode
+        :rtype: ListNode
+        """
+        # Create a placeholder 'dummy' node to build our list easily
+        dummy = ListNode(0)
+        curr = dummy
+        carry = 0
 
-        for i in range(len(sumi)):
-            arr.append(sumi[i])
-        
-        arr = arr[::-1]
-
-        tempNode = ListNode(-1)
-        curr = tempNode
-        for i in range(len(arr)):
-            curr.next = ListNode(int(arr[i]))
-            curr= curr.next
-        
-        return tempNode.next
-
+        # Loop until both lists are empty AND there is no remaining carry
+        while l1 or l2 or carry:
+            # Get the values from the current nodes, or 0 if we reached the end
+            val1 = l1.val if l1 else 0
+            val2 = l2.val if l2 else 0
+            
+            # Calculate the sum and the new carry
+            total = val1 + val2 + carry
+            carry = total // 10
+            
+            # Create the next node in our result list with the single digit
+            curr.next = ListNode(total % 10)
+            
+            # Move our result pointer and the input pointers forward
+            curr = curr.next
+            if l1: l1 = l1.next
+            if l2: l2 = l2.next
+            
+        return dummy.next
