@@ -1,21 +1,21 @@
 class Solution:
     def isValid(self, s: str) -> bool:
-        if len(s) < 2:
-            return False
-        validmapping = { "]":"[",")": "(","}":"{"}
-        stack = []
-        for char in s:
-            if char in validmapping.values():
-                stack.append(char)
+        stack= []
+        top = -1
+        pair = {")":"(","]":"[","}":"{"}
+        for ch in s:
+            if ch in "({[":
+                stack.append(ch)
+                top += 1
             else:
-                if len(stack) != 0:
-                    opening = stack.pop()
-                    if opening != validmapping[char]:
-                        return False
+                a = pair.get(ch)
+                if top > -1 and stack[top] == a:
+                    stack.pop()
+                    top -= 1
                 else:
                     return False
-                    
-        if len(stack) == 0:
+        if top == -1:
             return True
         else:
             return False
+
