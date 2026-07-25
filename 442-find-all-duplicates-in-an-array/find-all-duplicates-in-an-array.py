@@ -5,9 +5,8 @@ class Solution:
         res = []
         for i in range(n):
             hashmap[nums[i]] = hashmap.get(nums[i], 0) + 1
-        for key,value in hashmap.items():
-            if value == 2:
-                res.append(key)
+            if hashmap[nums[i]] == 2:
+                res.append(nums[i])
         return res
 
 
