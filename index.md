@@ -1,0 +1,130 @@
+# LeetCode Solutions -- organized by topic
+
+- **1. Two Sum** → `array/two-sum.java`
+- **1004. Max Consecutive Ones III** → `array/max-consecutive-ones-iii.py`
+- **1011. Capacity To Ship Packages Within D Days** → `array/capacity-to-ship-packages-within-d-days.py`
+- **1021. Remove Outermost Parentheses** → `string/remove-outermost-parentheses.py`
+- **11. Container With Most Water** → `array/container-with-most-water.py`
+- **121. Best Time to Buy and Sell Stock** → `array/best-time-to-buy-and-sell-stock.py`
+- **125. Valid Palindrome** → `two-pointers/valid-palindrome.py`
+- **128. Longest Consecutive Sequence** → `array/longest-consecutive-sequence.py`
+- **13. Roman to Integer** → `hash-table/roman-to-integer.py`
+- **1207. Unique Number of Occurrences** → `array/unique-number-of-occurrences.py`
+- **136. Single Number** → `array/single-number.py`
+- **1248. Count Number of Nice Subarrays** → `array/count-number-of-nice-subarrays.py`
+- **14. Longest Common Prefix** → `array/longest-common-prefix.py`
+- **1283. Find the Smallest Divisor Given a Threshold** → `array/find-the-smallest-divisor-given-a-threshold.py`
+- **141. Linked List Cycle** → `hash-table/linked-list-cycle.py`
+- **142. Linked List Cycle II** → `hash-table/linked-list-cycle-ii.py`
+- **1304. Find N Unique Integers Sum up to Zero** → `array/find-n-unique-integers-sum-up-to-zero.py`
+- **1358. Number of Substrings Containing All Three Characters** → `hash-table/number-of-substrings-containing-all-three-characters.py`
+- **148. Sort List** → `linked-list/sort-list.py`
+- **1365. How Many Numbers Are Smaller Than the Current Number** → `array/how-many-numbers-are-smaller-than-the-current-number.py`
+- **150. Evaluate Reverse Polish Notation** → `array/evaluate-reverse-polish-notation.py`
+- **151. Reverse Words in a String** → `two-pointers/reverse-words-in-a-string.py`
+- **153. Find Minimum in Rotated Sorted Array** → `array/find-minimum-in-rotated-sorted-array.py`
+- **155. Min Stack** → `stack/min-stack.py`
+- **1441. Build an Array With Stack Operations** → `array/build-an-array-with-stack-operations.py`
+- **1464. Maximum Product of Two Elements in an Array** → `array/maximum-product-of-two-elements-in-an-array.py`
+- **1470. Shuffle the Array** → `array/shuffle-the-array.py`
+- **160. Intersection of Two Linked Lists** → `hash-table/intersection-of-two-linked-lists.py`
+- **1482. Minimum Number of Days to Make m Bouquets** → `array/minimum-number-of-days-to-make-m-bouquets.py`
+- **162. Find Peak Element** → `array/find-peak-element.py`
+- **1539. Kth Missing Positive Number** → `array/kth-missing-positive-number.py`
+- **167. Two Sum II - Input Array Is Sorted** → `array/two-sum-ii-input-array-is-sorted.py`
+- **169. Majority Element** → `array/majority-element.py`
+- **172. Factorial Trailing Zeroes** → `math/factorial-trailing-zeroes.py`
+- **1614. Maximum Nesting Depth of the Parentheses** → `string/maximum-nesting-depth-of-the-parentheses.py`
+- **1752. Check if Array Is Sorted and Rotated** → `array/check-if-array-is-sorted-and-rotated.py`
+- **189. Rotate Array** → `array/rotate-array.py`
+- **1781. Sum of Beauty of All Substrings** → `hash-table/sum-of-beauty-of-all-substrings.py`
+- **1768. Merge Strings Alternately** → `two-pointers/merge-strings-alternately.py`
+- **19. Remove Nth Node From End of List** → `linked-list/remove-nth-node-from-end-of-list.py`
+- **2. Add Two Numbers** → `linked-list/add-two-numbers.py`
+- **20. Valid Parentheses** → `string/valid-parentheses.py`
+- **1909. Remove One Element to Make the Array Strictly Increasing** → `array/remove-one-element-to-make-the-array-strictly-increasing.py`
+- **1903. Largest Odd Number in String** → `math/largest-odd-number-in-string.py`
+- **205. Isomorphic Strings** → `hash-table/isomorphic-strings.py`
+- **1929. Concatenation of Array** → `array/concatenation-of-array.py`
+- **206. Reverse Linked List** → `linked-list/reverse-linked-list.py`
+- **21. Merge Two Sorted Lists** → `linked-list/merge-two-sorted-lists.py`
+- **217. Contains Duplicate** → `array/contains-duplicate.py`
+- **2095. Delete the Middle Node of a Linked List** → `linked-list/delete-the-middle-node-of-a-linked-list.py`
+- **2138. Divide a String Into Groups of Size k** → `string/divide-a-string-into-groups-of-size-k.py`
+- **2149. Rearrange Array Elements by Sign** → `array/rearrange-array-elements-by-sign.py`
+- **228. Summary Ranges** → `array/summary-ranges.py`
+- **229. Majority Element II** → `array/majority-element-ii.py`
+- **231. Power of Two** → `math/power-of-two.py`
+- **2220. Minimum Bit Flips to Convert Number** → `bit-manipulation/minimum-bit-flips-to-convert-number.py`
+- **234. Palindrome Linked List** → `linked-list/palindrome-linked-list.py`
+- **2239. Find Closest Number to Zero** → `array/find-closest-number-to-zero.py`
+- **2235. Add Two Integers** → `math/add-two-integers.py`
+- **242. Valid Anagram** → `hash-table/valid-anagram.py`
+- **2428. Maximum Sum of an Hourglass** → `array/maximum-sum-of-an-hourglass.java`
+- **26. Remove Duplicates from Sorted Array** → `array/remove-duplicates-from-sorted-array.py`
+- **2529. Maximum Count of Positive Integer and Negative Integer** → `array/maximum-count-of-positive-integer-and-negative-integer.py`
+- **268. Missing Number** → `array/missing-number.py`
+- **2600. K Items With the Maximum Sum** → `math/k-items-with-the-maximum-sum.py`
+- **283. Move Zeroes** → `array/move-zeroes.py`
+- **3. Longest Substring Without Repeating Characters** → `hash-table/longest-substring-without-repeating-characters.py`
+- **328. Odd Even Linked List** → `linked-list/odd-even-linked-list.py`
+- **33. Search in Rotated Sorted Array** → `array/search-in-rotated-sorted-array.py`
+- **3099. Harshad Number** → `math/harshad-number.py`
+- **34. Find First and Last Position of Element in Sorted Array** → `array/find-first-and-last-position-of-element-in-sorted-array.py`
+- **344. Reverse String** → `two-pointers/reverse-string.py`
+- **35. Search Insert Position** → `array/search-insert-position.py`
+- **3232. Find if Digit Game Can Be Won** → `array/find-if-digit-game-can-be-won.py`
+- **3522. Calculate Score After Performing Instructions** → `array/calculate-score-after-performing-instructions.py`
+- **392. Is Subsequence** → `two-pointers/is-subsequence.py`
+- **3658. GCD of Odd and Even Sums** → `math/gcd-of-odd-and-even-sums.py`
+- **4. Median of Two Sorted Arrays** → `array/median-of-two-sorted-arrays.py`
+- **3750. Minimum Number of Flips to Reverse Binary String** → `math/minimum-number-of-flips-to-reverse-binary-string.py`
+- **424. Longest Repeating Character Replacement** → `hash-table/longest-repeating-character-replacement.py`
+- **4335-minimum-adjacent-swaps-to-partition-array** → `uncategorized/minimum-adjacent-swaps-to-partition-array.py`
+- **4355-rearrange-string-to-avoid-character-pair** → `uncategorized/rearrange-string-to-avoid-character-pair.py`
+- **4356-sum-of-integers-with-maximum-digit-range** → `uncategorized/sum-of-integers-with-maximum-digit-range.py`
+- **4357-number-of-elapsed-seconds-between-two-times** → `uncategorized/number-of-elapsed-seconds-between-two-times.py`
+- **4364-maximum-value-of-an-alternating-sequence** → `uncategorized/maximum-value-of-an-alternating-sequence.py`
+- **442. Find All Duplicates in an Array** → `array/find-all-duplicates-in-an-array.py`
+- **448. Find All Numbers Disappeared in an Array** → `array/find-all-numbers-disappeared-in-an-array.py`
+- **451. Sort Characters By Frequency** → `hash-table/sort-characters-by-frequency.py`
+- **461. Hamming Distance** → `bit-manipulation/hamming-distance.py`
+- **48. Rotate Image** → `array/rotate-image.py`
+- **485. Max Consecutive Ones** → `array/max-consecutive-ones.py`
+- **496. Next Greater Element I** → `array/next-greater-element-i.py`
+- **5. Longest Palindromic Substring** → `two-pointers/longest-palindromic-substring.py`
+- **53. Maximum Subarray** → `array/maximum-subarray.py`
+- **54. Spiral Matrix** → `array/spiral-matrix.py`
+- **540. Single Element in a Sorted Array** → `array/single-element-in-a-sorted-array.py`
+- **560. Subarray Sum Equals K** → `array/subarray-sum-equals-k.py`
+- **561. Array Partition** → `array/array-partition.py`
+- **58. Length of Last Word** → `string/length-of-last-word.py`
+- **628. Maximum Product of Three Numbers** → `array/maximum-product-of-three-numbers.py`
+- **645. Set Mismatch** → `array/set-mismatch.py`
+- **67. Add Binary** → `math/add-binary.py`
+- **7. Reverse Integer** → `math/reverse-integer.py`
+- **70. Climbing Stairs** → `math/climbing-stairs.py`
+- **73. Set Matrix Zeroes** → `array/set-matrix-zeroes.py`
+- **74. Search a 2D Matrix** → `array/search-a-2d-matrix.py`
+- **75. Sort Colors** → `array/sort-colors.py`
+- **704. Binary Search** → `array/binary-search.py`
+- **8. String to Integer (atoi)** → `string/string-to-integer-atoi.py`
+- **81. Search in Rotated Sorted Array II** → `array/search-in-rotated-sorted-array-ii.py`
+- **796. Rotate String** → `string/rotate-string.py`
+- **88. Merge Sorted Array** → `array/merge-sorted-array.py`
+- **9. Palindrome Number** → `math/palindrome-number.py`
+- **875. Koko Eating Bananas** → `array/koko-eating-bananas.py`
+- **876. Middle of the Linked List** → `linked-list/middle-of-the-linked-list.py`
+- **930. Binary Subarrays With Sum** → `array/binary-subarrays-with-sum.py`
+
+## Summary
+
+- array: 63 problems
+- math: 12 problems
+- hash-table: 11 problems
+- linked-list: 9 problems
+- string: 7 problems
+- two-pointers: 6 problems
+- uncategorized: 5 problems
+- bit-manipulation: 2 problems
+- stack: 1 problems
