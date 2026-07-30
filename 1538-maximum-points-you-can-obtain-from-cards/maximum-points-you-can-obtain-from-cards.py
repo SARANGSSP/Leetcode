@@ -17,4 +17,4 @@ class Solution:
             rsum += cardPoints[r]
             maxsum = max(lsum + rsum, maxsum)
             r -= 1
-        return maxsum
+        return maxsum 
