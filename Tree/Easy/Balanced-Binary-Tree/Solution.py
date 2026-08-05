@@ -15,9 +15,9 @@ class Solution:
                 return 0
             lh = height(root.left)
             rh = height(root.right)
-            if lh or rh:
-                if abs(lh-rh) > 1:
+            if abs(lh-rh) > 1:
                     Flag = False
+                    return max(lh,rh) + 1
             return max(lh,rh) + 1
         height(root)
         return Flag
