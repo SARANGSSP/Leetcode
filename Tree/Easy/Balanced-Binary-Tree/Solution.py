@@ -9,18 +9,13 @@ class Solution:
         def height(node):
             if node is None:
                 return 0
-            
             lh = height(node.left)
             if lh == -1:
-                return -1  # left already unbalanced, bail out immediately
-            
+                return -1
             rh = height(node.right)
             if rh == -1:
-                return -1  # right already unbalanced, bail out immediately
-            
+                return -1
             if abs(lh - rh) > 1:
-                return -1  # this node itself is unbalanced
-            
+                return -1
             return max(lh, rh) + 1
-        
         return height(root) != -1
