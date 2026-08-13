@@ -9,4 +9,3 @@ class Solution:
                 res.append(nums[i])
         return res
 
-
