@@ -3,7 +3,5 @@ class Solution:
         n = len(grid)
         maxi = 0
         for index,ele in enumerate(grid):
-            if sum(ele) > maxi:
-                maxi = sum(ele)
-                maxiind = index
-        return maxiind 
+            if sum(ele) == n-1:
+                return index
