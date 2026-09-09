@@ -6,7 +6,6 @@ class Solution:
         n = len(nums)
         q = k%n
         arr = nums[n-q:] + nums[:n-q]
-        print(arr)
         for i in range(n):
             nums[i] = arr[i]
 
