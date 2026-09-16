@@ -11,17 +11,17 @@ class Solution:
             return []
         result = []
         queue = deque([root])
-        
         while queue:
-            levelsize = len(queue)
+            level_size = len(queue)
             level = []
-            for i in range(levelsize):
-                n = queue.popleft()
-                level.append(n.val)
-                if n.left:
-                    queue.append(n.left)
-                if n.right:
-                    queue.append(n.right)
+
+            for i in range(level_size):
+                node = queue.popleft()
+                level.append(node.val)
+                if node.left:
+                    queue.append(node.left)
+                if node.right:
+                    queue.append(node.right)
             result.append(level)
         return result
 
